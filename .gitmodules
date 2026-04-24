@@ -1,0 +1,3 @@
+[submodule "html_cv"]
+	path = html_cv
+	url = git@github.com:Zeadar/html_cv.git
