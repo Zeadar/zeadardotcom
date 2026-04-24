@@ -39,12 +39,30 @@ main {
 }
 
 .eyebrow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
     margin: 0 0 18px;
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.18em;
     text-transform: uppercase;
+    color: var(--accent);
+}
+
+.eyebrow a {
+    color: var(--accent);
+    text-decoration-color: var(--inactive);
+    text-underline-offset: 0.18em;
+}
+
+.eyebrow a:hover,
+.eyebrow a:focus-visible {
+    color: #b5eb45;
+}
+
+.eyebrow a:visited {
     color: var(--accent);
 }
 
@@ -189,7 +207,11 @@ p {
     background: #04120a;
 }
 
+.cv-window__button,
 .cv-window__close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-height: 36px;
     padding: 0 14px;
     border: 1px solid var(--inactive);
@@ -198,9 +220,11 @@ p {
     background: rgba(90, 120, 29, 0.2);
     font: inherit;
     font-weight: 700;
+    text-decoration: none;
     cursor: pointer;
 }
 
+.cv-window__button:hover,
 .cv-window__close:hover {
     color: #000a05;
     background: var(--accent);

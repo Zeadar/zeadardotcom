@@ -3,32 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zeadar</title>
+    <title>Karl Alexandersson | Software Developer</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <main>
-      <div class="eyebrow">Zeadar's portfolio</div>
+      <div class="eyebrow">
+        <a href="https://github.com/Zeadar">GitHub</a>
+        <a href="https://www.linkedin.com/in/karl-alexandersson-46509a326/">LinkedIn</a>
+      </div>
       <h1>Karl "Zeadar" Alexandersson</h1>
       <p>Software developer focused on C, Rust, Linux systems, backend tools, and practical automation.</p>
 
       <div class="actions">
-        <button id="open-cv" class="link" type="button">View CV</button>
-        <a class="link" href="html_cv/index.html">Open CV as page</a>
+        <button id="open-cv" class="link" type="button">View Curriculum Vitae</button>
       </div>
 
       <dialog id="cv-window" class="cv-window" aria-labelledby="cv-window-title">
         <div class="cv-window__bar">
           <strong id="cv-window-title">Curriculum Vitae</strong>
-          <button id="close-cv" class="cv-window__close" type="button" aria-label="Close CV">Close</button>
+          <div>
+            <a class="cv-window__button" href="html_cv/index.html" target="_blank" rel="noopener">Open CV as page</a>
+            <button id="close-cv" class="cv-window__close" type="button" aria-label="Close CV">Close</button>
+          </div>
         </div>
 
         <iframe src="html_cv/index.html" title="Karl Alexandersson Curriculum Vitae" class="cv-window__frame"></iframe>
       </dialog>
 
       <section class="profile" aria-labelledby="profile-title">
-        <h2 id="profile-title">About Me</h2>
+        <h2 id="profile-title">About</h2>
         <p>
           Software developer with professional experience building JavaScript-based interactive applications, frontend
           interfaces, internal tools, Node.js services, and 3D features with Three.js.
@@ -39,8 +44,8 @@
           problems close to the operating system.
         </p>
         <p>
-          I use AI tools as part of my development workflow for code exploration, debugging, implementation support,
-          refactoring, and documentation. I treat AI as leverage, not a replacement for understanding the code.
+          I use AI-assisted workflows to speed up code exploration, debugging, refactoring, and documentation while
+          keeping responsibility for design and correctness.
         </p>
       </section>
 
@@ -73,10 +78,8 @@
       </section>
 
       <p class="footer" id="contact">
-        Contact and links:
+        Contact:
         <a href="mailto:siiigsonik@gmail.com">Email</a>
-        <a href="https://github.com/Zeadar">GitHub</a>
-        <a href="https://www.linkedin.com/in/karl-alexandersson-46509a326/">LinkedIn</a>
       </p>
     </main>
   </body>
