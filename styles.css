@@ -81,6 +81,11 @@ p {
     color: var(--muted);
 }
 
+.looking-for {
+    color: var(--text);
+    font-weight: 700;
+}
+
 .profile,
 .projects {
     margin-top: 40px;
