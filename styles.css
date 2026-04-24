@@ -63,6 +63,58 @@ p {
     color: var(--muted);
 }
 
+.profile,
+.projects {
+    margin-top: 40px;
+}
+
+.profile h2,
+.projects h2 {
+    margin: 0 0 10px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.profile p {
+    margin-top: 12px;
+}
+
+.project-list {
+    border-top: 1px solid var(--border);
+}
+
+.project {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.project h3 {
+    margin: 0;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 1rem;
+    color: var(--text);
+}
+
+.project p {
+    margin-top: 8px;
+    font-size: 0.98rem;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--accent);
+    text-decoration-color: var(--inactive);
+    overflow-wrap: anywhere;
+}
+
+.project a:hover {
+    color: #b5eb45;
+}
+
 .actions {
     display: flex;
     flex-wrap: wrap;
@@ -170,6 +222,7 @@ p {
 }
 
 .footer a {
+    margin-left: 12px;
     color: var(--accent);
     text-decoration-color: var(--inactive);
 }

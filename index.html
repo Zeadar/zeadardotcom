@@ -10,8 +10,8 @@
   <body>
     <main>
       <div class="eyebrow">Zeadar's portfolio</div>
-      <h3>Karl "Zeadar" Alexandersson</h3>
-      <p>Coder.</p>
+      <h1>Karl "Zeadar" Alexandersson</h1>
+      <p>Software developer focused on C, Rust, Linux systems, backend tools, and practical automation.</p>
 
       <div class="actions">
         <button id="open-cv" class="link" type="button">View CV</button>
@@ -27,12 +27,57 @@
         <iframe src="html_cv/index.html" title="Karl Alexandersson Curriculum Vitae" class="cv-window__frame"></iframe>
       </dialog>
 
-      <!-- <div class="actions"> -->
-      <!-- <a class="button" href="mailto:hello@example.com">Get in touch</a> -->
-      <!-- <a class="link" href="#about">Learn more</a> -->
-      <!-- </div> -->
+      <section class="profile" aria-labelledby="profile-title">
+        <h2 id="profile-title">About Me</h2>
+        <p>
+          Software developer with professional experience building JavaScript-based interactive applications, frontend
+          interfaces, internal tools, Node.js services, and 3D features with Three.js.
+        </p>
+        <p>
+          I am currently focused on backend and systems development, especially C, Rust, Linux tooling, networking,
+          automation, and command-line/system utilities. I enjoy building practical software that solves concrete
+          problems close to the operating system.
+        </p>
+        <p>
+          I use AI tools as part of my development workflow for code exploration, debugging, implementation support,
+          refactoring, and documentation. I treat AI as leverage, not a replacement for understanding the code.
+        </p>
+      </section>
 
-      <p class="footer" id="contact">Contact: <a href="mailto:siiigsonik@gmail.com">email</a></p>
+      <section class="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Featured Projects</h2>
+        <div class="project-list">
+          <article class="project">
+            <h3>synthetic-mouse</h3>
+            <p>Linux C application that maps events from evdev input devices to a virtual mouse using evdev/uinput.</p>
+            <a href="https://github.com/Zeadar/synthetic-mouse">github.com/Zeadar/synthetic-mouse</a>
+          </article>
+
+          <article class="project">
+            <h3>blocktimer</h3>
+            <p>
+              Linux firewall scheduler written in C for blocking domains, IPs, and CIDR ranges during configured time
+              windows.
+            </p>
+            <a href="https://github.com/Zeadar/blocktimer">github.com/Zeadar/blocktimer</a>
+          </article>
+
+          <article class="project">
+            <h3>netblocker</h3>
+            <p>
+              Small Linux daemon that blocks outbound IPv4/IPv6 traffic on a schedule and handles wake/sleep events.
+            </p>
+            <a href="https://github.com/Zeadar/netblocker">github.com/Zeadar/netblocker</a>
+          </article>
+        </div>
+      </section>
+
+      <p class="footer" id="contact">
+        Contact and links:
+        <a href="mailto:siiigsonik@gmail.com">email</a>
+        <a href="https://github.com/Zeadar">GitHub</a>
+        <a href="https://www.linkedin.com/in/karl-alexandersson-46509a326/">LinkedIn</a>
+      </p>
     </main>
   </body>
 </html>
